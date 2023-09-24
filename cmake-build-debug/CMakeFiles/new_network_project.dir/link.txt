@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/new_network_project.dir/entity/log.c.o CMakeFiles/new_network_project.dir/entity/packet_interface.c.o CMakeFiles/new_network_project.dir/entity/main.c.o CMakeFiles/new_network_project.dir/entity/receiver.c.o CMakeFiles/new_network_project.dir/entity/sender.c.o -o new_network_project  /usr/lib/x86_64-linux-gnu/libz.so 

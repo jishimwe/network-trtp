@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Network" targetName="Network" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e950322-6bd8-45b2-8b70-84f65c16527f" name="Changes" comment="JP commit : Update sender and receiver">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/entity/receiver.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/linked_list.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/linked_list.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/sender.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/packet_interface.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/main.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/sender.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/packet_interface.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/entity/receiver.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectId" id="26ePR2maByUHLzdbQndLLTQg30n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/LINGI1341-trtp-project-master/projet1_TRAN_PEIFFER" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bilal\Desktop\new_network_project\entity" />
+      <recent name="C:\Users\Bilal\Desktop\new_network_project\packet" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ishim\CLionProjects\Network\entity" />
+      <recent name="C:\Users\Bilal\Desktop\new_network_project\entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.sender">
+    <configuration name="receiver" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="receiver :: 12345 -s stats.csv" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Network" TARGET_NAME="Network" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Network" RUN_TARGET_NAME="Network">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sender" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sender -f data.txt ::1 12345" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Network" TARGET_NAME="Network" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Network" RUN_TARGET_NAME="Network">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.receiver" />
+      <item itemvalue="CMake Application.sender" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e950322-6bd8-45b2-8b70-84f65c16527f" name="Changes" comment="" />
+      <created>1647781066687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647781066687</updated>
+      <workItem from="1647781068576" duration="9000" />
+      <workItem from="1647781088549" duration="4000000" />
+      <workItem from="1647785448100" duration="6135000" />
+      <workItem from="1647792979588" duration="23496000" />
+      <workItem from="1647848994986" duration="19791000" />
+      <workItem from="1647884518483" duration="2106000" />
+      <workItem from="1647886764068" duration="14688000" />
+      <workItem from="1647936266012" duration="49803000" />
+      <workItem from="1649159551379" duration="674000" />
+      <workItem from="1649160271424" duration="1042000" />
+    </task>
+    <task id="LOCAL-00001" summary="JP commit">
+      <created>1647786060920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647786060920</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JP commit">
+      <created>1647786187996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647786187996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JP commit : linked list implementation (to test)">
+      <created>1647811498691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647811498691</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JP commit : linked list implementation (to test)">
+      <created>1647815199422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647815199422</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JP commit : receiver implementation (to test)">
+      <created>1647864059146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647864059146</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JP commit : receiver implementation (to test)">
+      <created>1647869132096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647869132096</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JP commit : receiver implementation (to test)">
+      <created>1647989074499</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647989074499</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JP commit : receiver implementation (FINALLY DONE)&#10;TODO: Code cleanup">
+      <created>1647998311309</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647998311309</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JP commit : Update sender and receiver">
+      <created>1649161061090</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649161061090</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JP commit" />
+    <MESSAGE value="JP commit : linked list implementation (to test)" />
+    <MESSAGE value="JP commit : receiver implementation (to test)" />
+    <MESSAGE value="JP commit : receiver implementation (FINALLY DONE)&#10;TODO: Code cleanup" />
+    <MESSAGE value="JP commit : Update sender and receiver" />
+    <option name="LAST_COMMIT_MESSAGE" value="JP commit : Update sender and receiver" />
+  </component>
+</project>
